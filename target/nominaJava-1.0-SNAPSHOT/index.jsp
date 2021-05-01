@@ -1,4 +1,5 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+
 <html>
 <head>
   <title>Calcular-Nomina</title>
@@ -53,16 +54,16 @@
         </div>
         <div class="form-group col-md-6">
           <label for="apellidos">Apellidos:</label>
-          <input type="text" class="form-control" id="apellidos" name="apellidos" autofocus pattern="[A-Za-z]{2, 30}" placeholder="Ingrese sus Apellidos">
+          <input type="text" class="form-control" id="apellidos" name="apellidos"  pattern="[A-Za-z]{2, 30}" placeholder="Ingrese sus Apellidos">
         </div>
       </div>
       <div class="form-group">
         <label for="documento">Documento:</label>
-        <input type="text" class="form-control" id="documento" name="documento" autofocus pattern="[A-Za-z]{2, 30}" placeholder="Ingrese su Documento">
+        <input type="text" class="form-control" id="documento" name="documento"  pattern="[1-9]{2, 30}" placeholder="Ingrese su Documento">
         <label for="diasTrabajados">Dias Trabajados:</label>
-        <input type="text" class="form-control" id="diasTrabajados" name="diasTrabajados" autofocus pattern="[A-Za-z]{2, 30}" placeholder="Ingrese sus Dias Trabajados">
+        <input type="text" class="form-control" id="diasTrabajados" name="diasTrabajados"  pattern="[1-9]{2, 30}" placeholder="Ingrese sus Dias Trabajados">
         <label for="sueldoMensual">Sueldo Mensual:</label>
-        <input type="text" class="form-control" id="sueldoMensual" name="sueldoMensual" autofocus pattern="[A-Za-z]{2, 30}" placeholder="Ingrese su Sueldo Mensual">
+        <input type="text" class="form-control" id="sueldoMensual" name="sueldoMensual"  pattern="[1-9]{2, 30}" placeholder="Ingrese su Sueldo Mensual">
       </div>
       <input type="submit" class="btn btn-success btn-lg btn-block" value="Calcular">
       <input type="reset" class="btn btn-danger btn-lg btn-block" value="Limpiar">
